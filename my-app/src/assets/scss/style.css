@@ -54,7 +54,7 @@ h6 {
   height: 100vh;
   display: flex;
   align-items: center;
-  z-index: 997;
+  z-index: 1;
   overflow-y: auto;
 }
 
@@ -743,9 +743,6 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-    # Portfolio
-    --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
