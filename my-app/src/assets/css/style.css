@@ -9,7 +9,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: linear-gradient(rgba(28, 27, 28, 0.708), rgba(31, 29, 29, 0.709)), url("../img/index.jpg") top right no-repeat;
+  background: linear-gradient(rgba(28, 27, 28, 0.708), rgba(31, 29, 29, 0.709)),
+    url("../img/index.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -1109,7 +1110,7 @@ section .container {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #6a5acd;
   border: 0;
   padding: 10px 30px;
@@ -1118,7 +1119,7 @@ section .container {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #6a5acd;
 }
 
@@ -1168,7 +1169,5 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */

@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "sass": "sass src/sass/style.scss dist/css/style.css",
+    "sass": "sass src/assets/sass/style.scss src/assets/css/style.css",
     "test": "ng test"
   },
   "private": true,
