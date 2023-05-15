@@ -15,7 +15,6 @@ body::before {
   right: 0;
   top: 0;
   height: 100vh;
-  z-index: 1;
 }
 
 @media (min-width: 1024px) {
@@ -1064,7 +1063,6 @@ section .container {
   margin: 0 10px -6px 0;
   border: 3px solid #6a5acd;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1086,6 +1084,11 @@ section .container {
 
 .contact .php-email-form input::-moz-placeholder,
 .contact .php-email-form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
@@ -1115,15 +1118,6 @@ section .container {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #6a5acd;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 @keyframes animate-loading {
   0% {
@@ -1163,7 +1157,5 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
